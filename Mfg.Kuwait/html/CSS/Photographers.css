@@ -58,11 +58,7 @@ button{
     border: none;
     font-size: 16px;
 }
- body{
-	 background: url(../image/kw.jpeg);
-	 background-size: cover;
- }
-
+ 
 
   :root{
 	--background-dark: #2d3548;
