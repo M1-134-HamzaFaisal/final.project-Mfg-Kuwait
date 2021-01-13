@@ -65,7 +65,8 @@ button{
 
 
 body{
-
+  background: url(../image/kw.jpeg);
+  background-size: cover;
   
 }
 
