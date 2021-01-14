@@ -10,7 +10,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    line-height: 60px ; 
+	line-height: 60px ;
+	
 }
 
 .menu li {
@@ -72,7 +73,11 @@ button{
 	--width-container: 1200px;
 	font-family: 'Cairo', sans-serif;
   }
-  
+
+body{
+  background: url(../image/3506328.jpg);
+  background-size:1500px;
+}
   *{
 	border: 0;
 	margin: 0;

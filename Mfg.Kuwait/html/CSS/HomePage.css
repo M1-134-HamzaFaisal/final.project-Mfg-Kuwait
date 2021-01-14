@@ -64,7 +64,10 @@ button{
 
 
 
-
+body{
+  background: url(../image/3506328.jpg);
+  background-size:1500px;
+}
 
 
 
@@ -116,7 +119,7 @@ button{
 	width: 300px;
 	height: 400px;
 	overflow: hidden;
-	background-color: #eee;
+	background-color: rgb(255, 255, 255);
 	border-radius:5px;
   top: -20px;
   float: left;
@@ -125,7 +128,7 @@ button{
   -o-transition: all 0.5s;
   transition: all 0.5s;
   transition: all 0.5s; 
-  box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);  
+  box-shadow: 1px 1px 20px -5px rgba(226, 223, 12, 0.5);  
   }
   
   .cont_img_back {
@@ -136,12 +139,8 @@ button{
   border-radius:5px ;
   }
   .cont_img_back > img {
-	width: 100%;
-  opacity: 0.7;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  transition: all 1s;
+
+  
   }
   
   .cont_img_back:hover > img {
@@ -160,11 +159,10 @@ button{
   z-index: 3;
   box-shadow: 1px 1px  20px  -5px  rgba(0,0,0,0.2);
   
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbf9f9+28,e8eaed+100 */
-  background: rgb(251,249,249); /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  rgba(251,249,249,1) 28%, rgba(232,234,237,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: rgb(251,249,249); 
+  background: -moz-linear-gradient(-45deg,  rgba(251,249,249,1) 28%, rgba(232,234,237,1) 100%); 
+  background: -webkit-linear-gradient(-45deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%);
+  background: linear-gradient(135deg,  rgba(251,249,249,1) 28%,rgba(232,234,237,1) 100%);
    
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -257,7 +255,6 @@ button{
   bottom:-185px;
 	height: 200px;
 	border-radius:5px ;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+100,000000+101&0+0,0.65+68 */
   background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 68%, rgba(0,0,0,0.65) 100%, rgba(0,0,0,0.65) 101%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 68%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

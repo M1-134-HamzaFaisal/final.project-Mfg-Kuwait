@@ -58,6 +58,10 @@ button{
     border: none;
     font-size: 16px;
 }
+body{
+	background: url(../image/3506328.jpg);
+	background-size:1500px;
+  }
 
 
   :root{
